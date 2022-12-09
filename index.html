@@ -40,7 +40,7 @@
             var book = document.getElementById("input1").value;
             for(i=1;i<=50;i++){
                 var url = "https://i.yandanshe.com/"+book+"/0"+i+".jpg";
-                document.body.innerHTML += '<img alt="no" loading="lazy" class=" aligncenter lazyload" width="1280" src="'+url+'"    onerror="this.remove()"  width="1280" height="1820" />';
+                document.getElementById("test").innerHTML+= '<img alt="no" loading="lazy" class=" aligncenter lazyload" width="1280" src="'+url+'"    onerror="this.remove()"  width="1280" height="1820" />';
                 }
             }
         </script>
